@@ -11,10 +11,11 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "PURP - Técnicos Agrícolas",
   description: "Aplicación para técnicos agrícolas - Gestión de visitas y productores",
-  manifest: "/manifest.json",
-  themeColor: "#16a34a",
-  viewport: "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no",
-    generator: 'v0.dev'
+manifest: "/manifest.json",
+// Dentro del <head> de tu layout
+themeColor: "#16a34a",
+viewport: "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no",
+  generator: 'v0.dev'
 }
 
 export default function RootLayout({

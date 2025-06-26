@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next"
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "PURP - Técnicos Agrícolas",
+    name: "PURP",
     short_name: "PURP",
     description: "Aplicación para técnicos agrícolas - Gestión de visitas y productores",
     start_url: "/",
