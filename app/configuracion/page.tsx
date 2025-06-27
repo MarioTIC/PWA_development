@@ -189,11 +189,11 @@ export default function ConfiguracionPage() {
                 </div>
                 <div className="flex justify-between">
                   <span>Última actualización:</span>
-                  <span>Diciembre 2024</span>
+                  <span>Junio 2025</span>
                 </div>
                 <div className="flex justify-between">
                   <span>Desarrollado por:</span>
-                  <span>PURP Solutions</span>
+                  <span>PURP TIC</span>
                 </div>
                 <div className="flex justify-between">
                   <span>Soporte:</span>

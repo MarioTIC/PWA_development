@@ -52,7 +52,7 @@ export function InstallPrompt() {
       <CardContent className="p-4">
         <div className="flex items-center justify-between gap-4">
           <div className="flex-1">
-            <h3 className="font-semibold text-sm">Instalar AgriTech</h3>
+            <h3 className="font-semibold text-sm">Instalar App PURP</h3>
             <p className="text-xs text-gray-600 dark:text-gray-400">Instala la app para un acceso más rápido</p>
           </div>
           <div className="flex gap-2">

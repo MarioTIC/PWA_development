@@ -57,16 +57,16 @@ export default function HomePage() {
               </div>
               <div>
                 <h1 className="text-xl font-bold text-gray-900 dark:text-white">PURP</h1>
-                <p className="text-sm text-gray-600 dark:text-gray-400">Sistema de Gestión Agrícola</p>
+                <p className="text-sm text-gray-600 dark:text-gray-400">PURP SA de CV</p>
               </div>
             </div>
 
             <div className="flex items-center gap-3">
               <Badge variant={isOnline ? "default" : "destructive"}>{isOnline ? "Online" : "Offline"}</Badge>
               {pendingVisitas > 0 && <Badge variant="secondary">{pendingVisitas} pendientes</Badge>}
-              {userCode && (
+              {userRole && (
                 <Badge variant="outline" className="text-xs">
-                  {userRole === "manager" ? "Manager" : "Técnico"} - {userCode}
+                  {userRole === "manager" ? "Manager" : "Técnico"}
                 </Badge>
               )}
               <Link href="/configuracion">
