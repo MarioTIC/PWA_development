@@ -26,7 +26,7 @@ const initialState: ProductoresState = {
       telefono: "+57 300 123 4567",
       email: "juan.perez@email.com",
       direccion: "Vereda El Progreso, Municipio Agrícola",
-      cultivos: ["Café", "Plátano"],
+      cultivos: ["Garbanzo", "Sorgo"],
       fechaRegistro: "2024-01-15",
     },
     {

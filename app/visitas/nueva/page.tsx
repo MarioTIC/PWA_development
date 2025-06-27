@@ -198,13 +198,10 @@ export default function NuevaVisitaPage() {
                     <SelectValue placeholder="Seleccionar cultivo" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="Café">Café</SelectItem>
                     <SelectItem value="Maíz">Maíz</SelectItem>
                     <SelectItem value="Frijol">Frijol</SelectItem>
-                    <SelectItem value="Plátano">Plátano</SelectItem>
-                    <SelectItem value="Yuca">Yuca</SelectItem>
-                    <SelectItem value="Arroz">Arroz</SelectItem>
-                    <SelectItem value="Cacao">Cacao</SelectItem>
+                    <SelectItem value="Garbanzo">Garbanzo</SelectItem>
+                    <SelectItem value="Sorgo">Sorgo</SelectItem>
                     <SelectItem value="Otro">Otro</SelectItem>
                   </SelectContent>
                 </Select>
